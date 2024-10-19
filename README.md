@@ -1,6 +1,8 @@
 # Your Project Name
 
-Brief description of your project.
+A dashboard-kernel designed to be extended with cursor.com and claude-3.5-sonnet into what you need.
+
+Review the cursor_instruct.md file for more information.
 
 ## Installation
 
@@ -21,9 +23,14 @@ Brief description of your project.
    pip install -r requirements.txt
    ```
 
+4. Run the application:
+   ```
+   uvicorn main:app --reload
+   ```
+
 ## Usage
 
-Describe how to run and use your application.
+CRUD operations for internal tooling and simple user interfaces using FastAPI and an SQLALchemy for an Item Model.
 
 ## Project Structure
 
